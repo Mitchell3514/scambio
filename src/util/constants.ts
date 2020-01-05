@@ -7,7 +7,7 @@ export const TOKEN_REG_EXP = /^[a-f\d]{64}$/i;
 export const UUID_V4_REG_EXP = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 /** The base URL for the API. */
-export const API_URL = 'https://discoin.zws.im';
+export const API_URL = 'http://discoin.zws.im';
 
 /**
  * Set of HTTP request methods to indicate the desired action to be performed for a given resource.
